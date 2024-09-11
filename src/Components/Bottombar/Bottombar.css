@@ -1,0 +1,32 @@
+.main-div{
+ display:flex;
+  justify-content:center;
+  margin:30px;
+}
+.wrapper{
+  display:flex;
+ overflow-x:auto;
+  overflow-y:hidden;
+  width:90vw;
+}
+.wrapper li{
+ height:160px;
+  list-style:none;
+  margin-left:20px;
+}
+.wrapper .kids{
+  height:160px;
+  min-width:300px;
+}
+.wrapper .kids img{
+  border-radius:12px;
+  height:100%;
+  width:100%;
+   object-fit: cover;
+}
+/*@media screen and (max-width: 480px) {
+  .main-div{
+    width:95vw;
+    justify-content:center;
+  }
+}*/
